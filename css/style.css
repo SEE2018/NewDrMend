@@ -20,9 +20,15 @@
     display: inline-block;
     vertical-align: top;
     height: 50px;
-    width: 55px;
+    width: 50px;
     margin-right: 20px;
     margin-top: 0px;
+	}
+
+	.drpic{
+		height: 100px;
+		width: 100px;
+
 	}
 
 	body {
