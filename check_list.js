@@ -69,3 +69,12 @@ document.getElementById("myForm").addEventListener("submit", function(e){
     var formData = $('form').serializeJSON();
     console.log(formData);
 });
+
+
+function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'none')
+          e.style.display = 'block';
+       else
+          e.style.display = 'none';
+    }
