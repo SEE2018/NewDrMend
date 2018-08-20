@@ -69,14 +69,13 @@ function transferComplete() {
 function populateConditions(data) {
   var conditions_list = document.getElementById('myInput');
   var y = document.getElementById('myUL');
-
-  //create an html element for each condition
   data.forEach(function(symptom) {
     console.log(symptom);
     var node = document.createElement("li");
     node.className = "form-check";
     node.innerHTML = symptom.name;
     y.appendChild(node);
+
   });
 
 }
