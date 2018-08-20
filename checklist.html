@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Dr. Mend - Symptom Checklist</title>
     <script src="js/jquery.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
@@ -17,23 +18,11 @@
 		</noscript>
   </head>
   <body>
-
-  <form id="conditions-list" action="/action_page.php" method="get">
-    <input type="checkbox" name="symptom" value="Cough">Cough <br>
-    <input type="checkbox" name="syptom" value="Sore Throat">Sore Throat <br>
-    <input type="checkbox" name="syptom" value="Headache">Headache<br>
-    <input type="checkbox" name="syptom" value="Rashes">Rash<br>
-    <input type="checkbox" name="syptom" value="Fatigue">Fatigue<br>
-    <input type="checkbox" name="syptom" value="Mild Fever">Mild Fever<br>
-  </form>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-
-    <ul id="myUL">
-
-    </ul>
-    </div>
-      <input type="submit" value="Submit">
+    <form id="myForm">
+    </form>
 
     <script src="check_list.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.9.0/jquery.serializejson.min.js"></script>
   </body>
 </html>
