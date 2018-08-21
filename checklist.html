@@ -18,8 +18,19 @@
 		</noscript>
   </head>
   <body>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
     <form id="myForm">
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="sex[female]">Female
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="sex[male]">Male
+        </label>
+      </div>
+      <input name="age" type="text" id='age' placeholder="Enter Age"><br>
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for symptoms..">
     </form>
 
     <script src="check_list.js"></script>
