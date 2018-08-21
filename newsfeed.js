@@ -22,7 +22,7 @@ function populateArticles(articles) {
     var title = articles[i]["title"];
     var url = articles[i]["url"];
     var description = articles[i]["description"]
-  
+    var image = articles[i]["urlToImage"]
 
     var article = document.createElement('a');
     article.setAttribute('href', url);
@@ -37,6 +37,19 @@ function populateArticles(articles) {
     news.appendChild(article1);
     news.appendChild(document.createElement('br'));
 
+    var article1 = document.createElement('c');
+    article1.className = 'ccc';
+    article1.innerHTML = "<img src=\""+ image+"\" style=\"width:400px;height:250px;\">";
+    news.appendChild(article1);
+    news.appendChild(document.createElement('br'));
+
+
 
   }
-}
+
+
+
+    console.log(articles[i]["urlToImage"])
+
+
+  }
