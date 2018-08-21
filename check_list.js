@@ -22,16 +22,16 @@ function populateConditions(data) {
   data.forEach(function(symptom) {
     var div = document.createElement("DIV");
     div.className = "form-check";
-    div.setAttribute("id", symptom.name);
+    div.setAttribute("id", symptom.common_name);
     var input = document.createElement("INPUT");
     input.className = "form-check-input";
-    input.setAttribute("name", "symptoms[" + symptom.name + "]");
+    input.setAttribute("name", "symptoms[" + symptom.common_name + "]");
     input.setAttribute("type", "checkbox");
     input.setAttribute("value", symptom.id);
     var label = document.createElement("LABEL");
     label.className = "form-check-label";
-    label.setAttribute("for", symptom.name);
-    label.innerHTML = symptom.name;
+    label.setAttribute("for", symptom.common_name);
+    label.innerHTML = symptom.common_name;
     div.appendChild(input);
     div.appendChild(label);
     y.appendChild(div);
