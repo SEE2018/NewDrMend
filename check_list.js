@@ -68,6 +68,7 @@ document.getElementById("myForm").addEventListener("submit", function(e){
     getDiagnosis(formData);
 });
 
+
 function getDiagnosis(formData) {
   var sex = Object.keys(formData.sex)[0];
   var age = formData.age;
@@ -104,3 +105,10 @@ function getDiagnosis(formData) {
   }
 
 }
+function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'none')
+          e.style.display = 'block';
+       else
+          e.style.display = 'none';
+    }

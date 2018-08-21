@@ -1,22 +1,17 @@
 <!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>DR MEND</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
+		<iframe width="0" height="0" src="http://youtuberepeater.com/watch?v=xsMaE-x8qxU&name=1HOUR+MASHUP+MEGAMIX+NEW+SONGS+SUMMER+2017" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<title>Dr. Mend - Symptom Checklist</title>
+    <script src="js/jquery.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/jquery.scrollex.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -37,8 +32,7 @@
 			<header id="header">
 
 				<!-- Logo -->
-
-					<h1 id="logo">Dr Mend</h1>
+				<h1>Dr. Mend</h1>
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -87,9 +81,8 @@
 					<header>
 						<h2>Symptom Checker</h2>
 					</header>
-					<p>Our symptom cheacker allows user to check their symptoms using a checklist.
-						Common symptoms are already here but
-						for more specific ones please type it in our search box</p>
+					<p>Our symptom checker allows user to check their symptoms using a checklist.
+						 Please type in your symptoms and check the box.</p>
 					</div>
 				<a href="#checker" class="button style2 down anchored">Next</a>
 			</section>
@@ -103,14 +96,9 @@
 					<h2>Check box</h2>
 				</header>
 				<p>
-					<form action="/action_page.php" method="get">
-					  <input type="checkbox" name="symptom" value="Cough">Cough <br>
-					  <input type="checkbox" name="syptom" value="Sore Throat">Sore Throat <br>
-					  <input type="checkbox" name="syptom" value="Headache">Headache<br>
-					  <input type="checkbox" name="syptom" value="Rashes">Rash<br>
-					  <input type="checkbox" name="syptom" value="Fatigue">Fatigue<br>
-					  <input type="submit" value="Submit">
-					</form>
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." onclick="toggle_visibility('myForm');">
+			    <form id="myForm" style="display:none;">
+			    </form>
 				</p>
 			</div>
 			<a href="#work" class="button style2 down anchored">Next</a>
@@ -198,16 +186,16 @@
 		<!-- Footer -->
 			<footer id="footer">
 
-				<!-- Icons -->
+
 
 				<!-- Menu -->
 					<ul class="menu">
-
-						<li>&copy;2018</li><li>Design: HTML5 UP *diagnosis may not be accurate</a></li>
-
+					<li>&copy; Dr. Mend 2018</li>
 					</ul>
 
 			</footer>
-
+			<script src="check_list.js"></script>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.9.0/jquery.serializejson.min.js"></script>
+			</body>
 	</body>
 </html>
