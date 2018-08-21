@@ -968,6 +968,32 @@
 				#work .row.images.inactive .image.from-bottom {
 					top: 7em;
 				}
+/*********************************************************************************/
+/* News                                                                      */
+/*********************************************************************************/
+#news {
+	background: url('images/overlay.png'), url('../images/background/news.png');
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, center center;
+}
+
+.article {
+		padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.aaa{
+	 font-size: 30px;
+}
+
+.bbb{
+	 font-size: 15px;
+}
+
+
 
 /*********************************************************************************/
 /* Contact                                                                       */
