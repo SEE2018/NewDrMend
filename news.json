@@ -1,0 +1,246 @@
+{
+"status": "ok",
+"totalResults": 20,
+-"articles": [
+-{
+-"source": {
+"id": null,
+"name": "Marketwatch.com"
+},
+"author": "Mark DeCambre",
+"title": "Oil set for 4th straight gain as investors watch Iranian sanctions",
+"description": "Oil futures on Tuesday flirt with a fourth straight gain as investors watched U.S. sanctions against Iran for the potential to disrupt global supplies.",
+"url": "https://www.marketwatch.com/story/oil-set-for-4th-straight-gain-as-investors-watch-iranian-sanctions-2018-08-21",
+"urlToImage": "http://s.marketwatch.com/public/resources/MWimages/MW-FY361_califo_ZG_20171115071233.jpg",
+"publishedAt": "2018-08-21T11:54:00Z"
+},
+-{
+-"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Reuters",
+"title": "Toll Brothers shares surge after lifting its revenue forecast on robust demand for luxury homes",
+"description": "",
+"url": "https://www.cnbc.com/2018/08/21/toll-brothers-shares-surge-after-lifting-its-revenue-forecast-as-home-sales-and-prices-rise.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2013/07/08/100869762-20130705-4135-184.1910x1000.jpg",
+"publishedAt": "2018-08-21T11:27:21Z"
+},
+-{
+-"source": {
+"id": "reuters",
+"name": "Reuters"
+},
+"author": "William Schomberg",
+"title": "UK budget surplus in July eases headache for Hammond",
+"description": "Britain reported its biggest budget surplus for the month of July in 18 years on Tuesday, giving finance minister Philip Hammond some extra room for manoeuvre as he faces pressure to relax his grip on spending later this year.",
+"url": "https://uk.reuters.com/article/uk-britain-economy-budget/uk-budget-surplus-in-july-eases-headache-for-hammond-idUKKCN1L60Q5",
+"urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20180821&t=2&i=1295879776&w=1200&r=LYNXNPEE7K0IE",
+"publishedAt": "2018-08-21T10:35:01Z"
+},
+-{
+-"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Hugh Son",
+"title": "JP Morgan to unveil new investing app with an eye-catching, disruptive price: Free",
+"description": "The bank's move instantly intensifies the price war that is occurring throughout the investing landscape. J.P. Morgan, the biggest U.S. bank, has a distinct advantage over competitors, including start-ups with slick trading apps: It already has financial ties…",
+"url": "https://www.cnbc.com/2018/08/21/jp-morgan-to-unveil-new-investing-app-with-an-eye-catching-disruptive-price-free.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/21/105407973-1534855000431gettyimages-1022699798.1910x1000.jpeg",
+"publishedAt": "2018-08-21T10:24:28Z"
+},
+-{
+-"source": {
+"id": "bloomberg",
+"name": "Bloomberg"
+},
+"author": null,
+"title": "The Longest Market Rally in History? Take a Closer Look",
+"description": null,
+"url": "https://www.bloomberg.com/news/articles/2018-08-21/longest-bull-market-in-history-comes-with-jumbo-sized-asterisk",
+"urlToImage": null,
+"publishedAt": "2018-08-21T10:16:36Z"
+},
+-{
+-"source": {
+"id": "cbs-news",
+"name": "CBS News"
+},
+"author": "AP",
+"title": "Animal crackers' animals \"freed\" as boxes get new look",
+"description": "Nabisco's parent company heeds calls from PETA to change longtime design depicting them in cages",
+"url": "https://www.cbsnews.com/news/nabisco-barnums-animals-animal-crackers-animals-freed-mondelez-international-boxes-get-new-look/",
+"urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2018/08/21/e20c82fc-fb71-44aa-ad60-afa09f06f373/thumbnail/1200x630/a274bbb3ff19ca797ed885a4f9b2384b/ap-18232643622985.jpg",
+"publishedAt": "2018-08-21T09:51:00Z"
+},
+-{
+-"source": {
+"id": "fortune",
+"name": "Fortune"
+},
+"author": "Hallie Detrick",
+"title": "What Microsoft's Revelation About Russian Hacking Means for the Midterms",
+"description": "",
+"url": "http://fortune.com/2018/08/21/microsoft-russian-hacking-midterms/",
+"urlToImage": "https://fortunedotcom.files.wordpress.com/2018/08/gettyimages-986642730.jpg",
+"publishedAt": "2018-08-21T09:41:35Z"
+},
+-{
+-"source": {
+"id": "business-insider",
+"name": "Business Insider"
+},
+"author": "Oscar Williams-Grut",
+"title": "The dollar is falling after Trump slammed the Fed again",
+"description": "One analyst said a pattern is starting to emerge showing \"the president willing to talk the USD lower whenever it starts to look a bit toppy.\"",
+"url": "https://www.businessinsider.com/dollar-falls-against-the-pound-euro-on-august-21-after-trump-criticises-fed-2018-8",
+"urlToImage": "https://amp.businessinsider.com/images/5b7bc0fc1982d88b308b4755-1136-568.png",
+"publishedAt": "2018-08-21T08:59:56Z"
+},
+-{
+-"source": {
+"id": "the-wall-street-journal",
+"name": "The Wall Street Journal"
+},
+"author": "Georgi Kantchev",
+"title": "Global Stocks Steady but Dollar Weakens After President Trump's Fed Remarks",
+"description": "U.S. stocks were set to open higher and the dollar fell, as investors parsed the latest signals in the trade spat between the U.S. and China and President Trump’s comments about the Federal Reserve.",
+"url": "https://www.wsj.com/articles/global-stocks-pause-ahead-of-next-move-on-trade-1534836285",
+"urlToImage": "https://images.wsj.net/im-22898/social",
+"publishedAt": "2018-08-21T08:40:35Z"
+},
+-{
+-"source": {
+"id": "financial-times",
+"name": "Financial Times"
+},
+"author": null,
+"title": "Maersk launches container ship on Arctic route",
+"description": "World’s biggest carrier of seaborne freight experiments with alternative to Suez Canal",
+"url": "https://www.ft.com/content/fb38b6ac-a484-11e8-8ecf-a7ae1beff35b",
+"urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F2954388c-9a66-11e8-88de-49c908b1f264?source=next-opengraph&fit=scale-down&width=900",
+"publishedAt": "2018-08-21T04:02:17Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Nypost.com"
+},
+"author": null,
+"title": "Amazon hires famed cardiologist for health care push",
+"description": null,
+"url": "https://nypost.com/2018/08/20/amazon-hires-famed-cardiologist-for-health-care-push/",
+"urlToImage": null,
+"publishedAt": "2018-08-21T02:52:00Z"
+},
+-{
+-"source": {
+"id": "the-new-york-times",
+"name": "The New York Times"
+},
+"author": "http://www.nytimes.com/by/sarah-maslin-nir",
+"title": "Jon Stewart Finds a Home for Brooklyn's Lost Subway Goats",
+"description": "The comedian picked up the goats that had trotted into the N train line tracks with plans to relocate them to a farm in Watkins Glen, N.Y., a spokeswoman said.",
+"url": "https://www.nytimes.com/2018/08/20/nyregion/goats-subway-track.html",
+"urlToImage": "https://static01.nyt.com/images/2018/08/21/nyregion/21SUBWAYSGOATS/21SUBWAYSGOATS-facebookJumbo.jpg",
+"publishedAt": "2018-08-21T00:40:56Z"
+},
+-{
+-"source": {
+"id": "reuters",
+"name": "Reuters"
+},
+"author": "Eric M. Johnson",
+"title": "Paul Allen's space firm details plans for rockets, cargo vehicle",
+"description": "The space company of billionaire Microsoft co-founder Paul Allen on Monday unveiled details of medium-lift rockets and a reusable space cargo plane it is developing, injecting more competition into the lucrative launch services market.",
+"url": "https://www.reuters.com/article/us-space-paulallen/paul-allens-space-firm-details-plans-for-rockets-cargo-vehicle-idUSKCN1L52AY",
+"urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20180821&t=2&i=1295735930&w=1200&r=LYNXNPEE7K00M",
+"publishedAt": "2018-08-20T23:37:28Z"
+},
+-{
+-"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Ari Levy",
+"title": "Party animal venture capitalist Rothenberg accused by SEC of bilking investors",
+"description": "Venture capitalist Mike Rothenberg was charged by the SEC with overcharging investors and using the money for his own adventures.",
+"url": "https://www.cnbc.com/2018/08/20/party-animal-venture-capitalist-rothenberg-charged-by-sec.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/20/105406845-1534801423298mike.1910x1000.jpg",
+"publishedAt": "2018-08-20T22:08:00Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Fool.com"
+},
+"author": "John Rosevear",
+"title": "Will Tesla's Go-Private Bid Lose Out to Lucid Motors?",
+"description": "The Saudi fund that was thought to be backing Tesla's bid seems to be shopping around.",
+"url": "https://www.fool.com/investing/2018/08/20/will-teslas-go-private-bid-lose-out-to-lucid-motor.aspx",
+"urlToImage": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F492154%2Flucid_air_2.jpg&h=630&w=1200&op=resize",
+"publishedAt": "2018-08-20T20:53:00Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "People.com"
+},
+"author": "Madison Roberts",
+"title": "American Man Arrested for Allegedly Urinating on Sleeping Fellow Passenger During Flight to Japan",
+"description": "Japan Today reports that police said the suspect drank at least four glasses of champagne and one cup of sake before the alleged situation",
+"url": "https://people.com/home/american-man-arrested-urinating-passenger-flight-japan/",
+"urlToImage": "https://peopledotcom.files.wordpress.com/2018/08/nippon.jpg?crop=0px%2C80px%2C2000px%2C1051px&resize=1200%2C630",
+"publishedAt": "2018-08-20T18:23:00Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Philly.com"
+},
+"author": "Samantha Melamed",
+"title": "Electric scooters have brought chaos and outrage in cities across the country. Is Philly next?",
+"description": "Philly is bracing for the arrival of dockless, electric scooters, the latest sharing-economy disrupter. The devices from tech companies Bird and Lime have been dumped, without warning, on city sidewalks nationwide and met with cease-and-desist orders, bans an…",
+"url": "http://www.philly.com/philly/news/pennsylvania/philadelphia/electric-scooters-philadelphia-bird-lime-skip-share-dockless-20180820.html",
+"urlToImage": "http://media.philly.com/images/dixon-662694-f-wp-content-uploads-2018-08-1267043_a5d84bf9587ba03-e1534531176355-1200x799.jpg",
+"publishedAt": "2018-08-20T16:30:56Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Fox5sandiego.com"
+},
+"author": "http://www.facebook.com/fox5sandiego",
+"title": "Alpaca dies after eating Doritos, Cheese Nips and peanuts",
+"description": "A community alpaca in Florida has died after someone repeatedly fed the animal Doritos, Cheese Nips, and peanuts, according to officials at Creekside Animal Hospital.",
+"url": "https://fox5sandiego.com/2018/08/20/florida-alpaca-dies-after-eating-doritos-cheese-nips-and-peanuts/",
+"urlToImage": "https://tribkswb.files.wordpress.com/2018/08/screen-shot-2018-08-20-at-10-35-38-am.jpg?quality=85&strip=all&w=1200",
+"publishedAt": "2018-08-20T15:29:00Z"
+},
+-{
+-"source": {
+"id": "the-huffington-post",
+"name": "The Huffington Post"
+},
+"author": "Dominique Mosbergen",
+"title": "Here's Why You Should Never Flush Your Contact Lenses Down The Toilet",
+"description": "Researchers estimate that billions of lenses are flushed each year in the U.S. -- and fragments of them might be ending up in our oceans.",
+"url": "https://www.huffingtonpost.com/entry/contact-lens-environment-dont-flush_us_5b7a9f0ae4b0a5b1febd038d",
+"urlToImage": "https://img.huffingtonpost.com/asset/5b7aaded2000007a0337a140.jpeg?cache=1xuuh88ilg&ops=1910_1000",
+"publishedAt": "2018-08-20T14:17:00Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Seekingalpha.com"
+},
+"author": "Dividend Appreciator",
+"title": "Microsoft: Expect A Dividend Boost This September",
+"description": "Microsoft has paid dividends since 2003. The company is aggressively growing in the right areas - especially cloud. Expect this leading company to hike the divi",
+"url": "https://seekingalpha.com/article/4200493-microsoft-expect-dividend-boost-september",
+"urlToImage": "https://static3.seekingalpha.com/images/marketing_images/numbers_words_signs/words_phrases/dividends_red_marker.jpeg",
+"publishedAt": "2018-08-20T13:01:00Z"
+}
+]
+}
