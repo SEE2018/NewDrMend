@@ -95,47 +95,29 @@
 				<header>
 					<h2>Check box</h2>
 				</header>
-				<!DOCTYPE html>
-				<html>
-				  <head>
-				    <title>Dr. Mend - Symptom Checklist</title>
-				    <script src="js/jquery.min.js"></script>
-						<script src="js/jquery.poptrox.min.js"></script>
-						<script src="js/jquery.scrolly.min.js"></script>
-						<script src="js/jquery.scrollex.min.js"></script>
-						<script src="js/skel.min.js"></script>
-						<script src="js/init.js"></script>
-				    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-				    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-						<noscript>
-							<link rel="stylesheet" href="css/skel.css" />
-							<link rel="stylesheet" href="css/style.css" />
-							<link rel="stylesheet" href="css/style-wide.css" />
-							<link rel="stylesheet" href="css/style-normal.css" />
-						</noscript>
-				  </head>
-				  <body>
-				    <form id="myForm" >
+				    <form id="myForm">
 				      <div class="form-check">
 				        <label class="form-check-label">
-				          <input type="radio" class="form-check-input" name="sex[female]">Female
+				          <input type="radio" class="form-check-input" name="sex">Female
 				        </label>
 				      </div>
 				      <div class="form-check">
 				        <label class="form-check-label">
-				          <input type="radio" class="form-check-input" name="sex[male]">Male
+				          <input type="radio" class="form-check-input" name="sex">Male
 				        </label>
 				      </div>
 				      <input name="age" type="text" id='age' placeholder="Enter Age"><br>
-				      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for symptoms..">
-				    </form>
-				    <pre id="log"></pre>
-				    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-				    <script src="check_list.js"></script>
-				    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.9.0/jquery.serializejson.min.js"></script>
-				  </body>
-				</html>
+				      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for symptoms.." onclick="toggle_visibility('symptoms')">
+							<div id="symptoms"></div>
 
+							<button type="submit" class="btn btn-primary mb-2">Submit for diagnosis</button>
+
+				    	<div id="diagnosis">
+				    	</div>
+							<div id="prob">
+				    	</div>
+						 </form>
+				</div>
 			<a href="#work" class="button style2 down anchored">Next</a>
 		</section>
 
@@ -220,15 +202,13 @@
 
 		<!-- Footer -->
 			<footer id="footer">
-
-
-
 				<!-- Menu -->
 					<ul class="menu">
 					<li>&copy; Dr. Mend 2018</li>
 					</ul>
 
 			</footer>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 			<script src="check_list.js"></script>
 			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.9.0/jquery.serializejson.min.js"></script>
 			</body>

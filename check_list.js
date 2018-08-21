@@ -17,7 +17,7 @@ function transferComplete() {
 
 function populateConditions(data) {
   var conditions_list = document.getElementById('myInput');
-  var y = document.getElementById('myForm');
+  var y = document.getElementById('symptoms');
   //create an html element for each condition
   data.forEach(function(symptom) {
     var div = document.createElement("DIV");
@@ -36,12 +36,6 @@ function populateConditions(data) {
     div.appendChild(label);
     y.appendChild(div);
   });
-
-  var button = document.createElement("BUTTON");
-  button.className = "btn btn-primary mb-2";
-  button.setAttribute("type", "submit");
-  button.innerHTML = "Submit for Diagnosis";
-  y.appendChild(button);
 }
 
 function myFunction() {
@@ -49,7 +43,7 @@ function myFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById('myInput');
     filter = input.value.toUpperCase();
-    form = document.getElementById("myForm");
+    form = document.getElementById("symptoms");
     divs = form.getElementsByTagName("div");
 
     // Loop through all list items, and hide those who don't match the search query
@@ -63,6 +57,7 @@ function myFunction() {
 }
 
 document.getElementById("myForm").addEventListener("submit", function(e){
+  console.log('submitting!');
     e.preventDefault();
     var formData = $('form').serializeJSON();
     getDiagnosis(formData);
@@ -70,6 +65,7 @@ document.getElementById("myForm").addEventListener("submit", function(e){
 
 
 function getDiagnosis(formData) {
+  console.log(formData);
   var sex = Object.keys(formData.sex)[0];
   var age = formData.age;
   var evidence = [];
@@ -100,8 +96,15 @@ function getDiagnosis(formData) {
 
   function dxComplete() {
     dx_data = JSON.parse(diagnose_request.responseText);
-    console.log(dx_data["conditions"][0]["common_name"]);
-    console.log(dx_data["conditions"][0]["probability"]);
+    var name = dx_data["conditions"][0]["common_name"];
+    var probability = dx_data["conditions"][0]["probability"];
+    console.log(name);
+    console.log(probability);
+    document.getElementById("diagnosis").innerHTML ="You probably have: "+ name;
+    document.getElementById("prob").innerHTML ="Probability: " + probability*100+" %";
+
+    //access the diagnosis ID div
+    //add the results as innerHTML
   }
 
 }
@@ -112,17 +115,25 @@ function toggle_visibility(id) {
        else
           e.style.display = 'none';
     }
-    (function () {
-        var old = console.log;
-        var logger = document.getElementById('log');
-        console.log = function () {
-          for (var i = 0; i < arguments.length; i++) {
-            if (typeof arguments[i] == 'object') {
-                logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(arguments[i], undefined, 2) : arguments[i]) + '<br />';
-            } else {
-                logger.innerHTML += arguments[i] + '<br />';
-            }
-          }
-        }
-    })();
+
+function show(id) {
+  var e = document.getElementById(id);
+  e.style.display = 'block';
+}
+
+    // (function () {
+    //     var old = console.log;
+    //     var logger = document.getElementById('log');
+    //     console.log = function () {
+    //       for (var i = 0; i < arguments.length; i++) {
+    //         if (typeof arguments[i] == 'object') {
+    //             logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(arguments[i], undefined, 2) : arguments[i]) + '<br />';
+    //         } else {
+    //             logger.innerHTML += arguments[i] + '<br />';
+    //         }
+    //       }
+    //     }
+    // })();
 //Create Labels
+var x = document.getElementById("myForm");
+toggle_visibility('symptoms');
