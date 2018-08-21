@@ -96,12 +96,29 @@
 				<header>
 					<h2>Check box</h2>
 				</header>
-				<p>
-					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." onclick="toggle_visibility('myForm');">
-			    <form id="myForm" style="display:none;">
-			    </form>
-				</p>
-			</div>
+				    <form id="myForm">
+				      <div class="form-check">
+				        <label class="form-check-label">
+				          <input type="radio" class="form-check-input" name="sex">Female
+				        </label>
+				      </div>
+				      <div class="form-check">
+				        <label class="form-check-label">
+				          <input type="radio" class="form-check-input" name="sex">Male
+				        </label>
+				      </div>
+				      <input name="age" type="text" id='age' placeholder="Enter Age"><br>
+				      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for symptoms.." onclick="toggle_visibility('symptoms')">
+							<div id="symptoms"></div>
+
+							<button type="submit" class="btn btn-primary mb-2">Submit for diagnosis</button>
+
+				    	<div id="diagnosis">
+				    	</div>
+							<div id="prob">
+				    	</div>
+						 </form>
+				</div>
 			<a href="#work" class="button style2 down anchored">Next</a>
 		</section>
 
@@ -198,15 +215,13 @@
 
 		<!-- Footer -->
 			<footer id="footer">
-
-
-
 				<!-- Menu -->
 					<ul class="menu">
 					<li>&copy; Dr. Mend 2018</li>
 					</ul>
 
 			</footer>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 			<script src="check_list.js"></script>
 			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.9.0/jquery.serializejson.min.js"></script>
 			<script type="text/javascript" src="newsfeed.js"></script>
